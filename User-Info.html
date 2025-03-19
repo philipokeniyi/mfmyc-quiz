@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MFMYC OLODO Bible Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="1 - Copy.png" type="image/x-icon" />
+  </head>
+
+  <body class="body">
+    <div class="quiz-container">
+      <div class="title-heading">
+        <img src="1.png" alt="mfm olodo logo" class="logo" />
+        <h1>Correctly Input Your Details</h1>
+      </div>
+
+      <form id="user-info-form" class="user-info-form">
+        <div class="participant-details">
+          <label>NAME:</label>
+          <input type="text" id="name" required />
+
+          <label>EXAM NUMBER:</label>
+          <input type="text" id="examNumber" required />
+
+          <label>MFM REGION:</label>
+          <input type="text" id="region" required />
+
+          <label>PHONE NUMBER:</label>
+          <input type="text" id="phone" required />
+        </div>
+
+        <button type="submit" class="submit-details-btn">Submit Details</button>
+
+        <div class="Proceed-to-start-Quiz">
+          <a
+            href="quiz.html"
+            class="Proceed-to-start-Quiz-btn"
+            style="display: none"
+            >Proceed to start Quiz</a
+          >
+        </div>
+      </form>
+    </div>
+
+    <script src="user-info.js"></script>
+  
+  </body>
+</html>
